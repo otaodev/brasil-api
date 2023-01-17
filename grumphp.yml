@@ -41,3 +41,9 @@ grumphp:
 
         phpstan:
             configuration: "phpstan.neon"
+
+        phpunit:
+            config_file: "phpunit.xml"
+            testsuite: ~
+            group: []
+            always_execute: true

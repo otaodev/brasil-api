@@ -15,6 +15,11 @@
             "Otaodev\\BrasilApi\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "Tiago Aparacido de Oliveira",
@@ -34,5 +39,8 @@
         "allow-plugins": {
             "phpro/grumphp": true
         }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
     }
 }
