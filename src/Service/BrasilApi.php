@@ -8,6 +8,6 @@ class BrasilApi
 {
     public static function getAllBanks(): string
     {
-        return "";
+        return "[]";
     }
 }
