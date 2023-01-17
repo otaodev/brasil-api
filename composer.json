@@ -23,5 +23,8 @@
         "allow-plugins": {
             "phpro/grumphp": true
         }
+    },
+    "require": {
+        "phpmd/phpmd": "^2.13"
     }
 }

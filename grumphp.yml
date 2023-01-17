@@ -33,3 +33,8 @@ grumphp:
             ignore_patterns: [./vendor/*]
             whitelist_patterns: [/^src\/(.*)/]
             encoding: UTF-8
+
+        phpmd:
+            ruleset: ['cleancode', 'codesize', 'controversial', 'design', 'naming']
+            exclude: ['tests']
+            triggered_by: ['php']
