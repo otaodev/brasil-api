@@ -27,3 +27,9 @@ grumphp:
                 case_insensitive: true
                 multiline: true
                 additional_modifiers: ''
+
+        phpcs:
+            standard: PSR12
+            ignore_patterns: [./vendor/*]
+            whitelist_patterns: [/^src\/(.*)/]
+            encoding: UTF-8
