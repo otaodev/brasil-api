@@ -38,3 +38,6 @@ grumphp:
             ruleset: ['cleancode', 'codesize', 'controversial', 'design', 'naming']
             exclude: ['tests']
             triggered_by: ['php']
+
+        phpstan:
+            configuration: "phpstan.neon"
