@@ -3,6 +3,13 @@
     "description": "Biblioteca de integração com a Brasil API",
     "type": "library",
     "license": "GNU",
+    "scripts": {
+        "test": "phpunit",
+        "test:watch": [
+            "Composer\\Config::disableProcessTimeout",
+            "phpunit-watcher watch < /dev/tty"
+        ]
+    },
     "autoload": {
         "psr-4": {
             "Otaodev\\BrasilApi\\": "src/"
@@ -19,7 +26,9 @@
         "phpro/grumphp": "^1.15",
         "squizlabs/php_codesniffer": "^3.7",
         "phpmd/phpmd": "^2.13",
-        "phpstan/phpstan": "^1.9"
+        "phpstan/phpstan": "^1.9",
+        "phpunit/phpunit": "*",
+        "spatie/phpunit-watcher": "^1.23"
     },
     "config": {
         "allow-plugins": {
