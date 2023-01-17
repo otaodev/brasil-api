@@ -25,4 +25,17 @@ class BrasilApiTest extends TestCase
 
         $this->assertIsString($expected);
     }
+
+    /**
+     * @testdox Summary of should verify if object exists in string
+     * @covers
+     * 
+     * @return void
+     */
+    public function testShouldVerifyIfObjectExistsInString()
+    {
+        $expected = json_decode($this->sut::getAllBanks());
+
+        $this->assertIsArray($expected);
+    }
 }
