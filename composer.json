@@ -1,0 +1,26 @@
+{
+    "name": "otaodev/brasil-api",
+    "description": "Biblioteca de integração com a Brasil API",
+    "type": "library",
+    "license": "GNU",
+    "autoload": {
+        "psr-4": {
+            "Otaodev\\BrasilApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tiago Aparacido de Oliveira",
+            "email": "contato@otao.dev.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpro/grumphp": "^1.15"
+    },
+    "config": {
+        "allow-plugins": {
+            "phpro/grumphp": true
+        }
+    }
+}
